@@ -21,7 +21,7 @@ public class Steps {
 	
 	@Given("User is able to launch the application")
 	public void user_is_able_to_launch_the_application() {
-		  System.setProperty("webdriver.chrome.driver", "src/test/java/driver/chromedriver");			
+		  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");			
 			
 		    driver=new ChromeDriver();
 			
